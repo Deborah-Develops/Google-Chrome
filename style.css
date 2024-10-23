@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
     margin-left: 500px;
 
     margin-top: 100px;
@@ -10,4 +10,31 @@
 
 .click {
     margin-left: 600px;
+} */
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+}
+
+.click button {
+    padding: 10px 20px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
 }
